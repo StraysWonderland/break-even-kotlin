@@ -1,5 +1,6 @@
-profile: service
-defaultPackage: function
----
-testFramework: spek
+applicationType: function
+defaultPackage: info.novatec
+testFramework: junit
 sourceLanguage: kotlin
+buildTool: maven
+features: [annotation-api, app-name, aws-lambda, aws-lambda-custom-runtime, graalvm, junit, kotlin, logback, maven, readme, shade, yaml]
