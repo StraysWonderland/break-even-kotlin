@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="break-even-mn-lambda" target="11" />
       <module name="function" target="1.8" />
     </bytecodeTargetLevel>
   </component>
