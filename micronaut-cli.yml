@@ -1,6 +1,6 @@
 applicationType: function
-defaultPackage: info.novatec
+defaultPackage: example.micronaut
 testFramework: junit
-sourceLanguage: kotlin
-buildTool: maven
-features: [annotation-api, app-name, aws-lambda, aws-lambda-custom-runtime, graalvm, junit, kotlin, logback, maven, readme, shade, yaml]
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, aws-lambda, aws-lambda-custom-runtime, file-watch, graalvm, gradle, java, junit, logback, readme, shade, yaml]

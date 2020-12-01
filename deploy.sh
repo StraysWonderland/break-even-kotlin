@@ -1,4 +1,4 @@
 #!/bin/bash
-docker build . -t break-even-mn-lambda
+docker build . -t complete
 mkdir -p build
-docker run --rm --entrypoint cat break-even-mn-lambda  /home/application/function.zip > build/function.zip
+docker run --rm --entrypoint cat complete  /home/application/function.zip > build/function.zip
